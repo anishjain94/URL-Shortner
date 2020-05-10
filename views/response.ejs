@@ -1,0 +1,10 @@
+<%- include("header") -%>
+
+<script>
+  document.getElementById("path").innerHTML = window.location.hostname;
+</script>
+
+<h3>Your Shortned URL</h3>
+<code><%= urlobj.url %> </code>
+<br />
+<code id="path"></code> <%= path %>
